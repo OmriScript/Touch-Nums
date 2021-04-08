@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background-color: #333;
+  color: white;
+}
+
+tbody,
+td {
+  color: black;
+  border: 1px solid black;
+}
+
+td {
+  background-color: rgb(249, 251, 93);
+}
+
+table {
+  margin: auto;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  background-color: yellow;
+}
+
+p,
+h1 {
+  padding: 10px;
+}
+
+/* 
+[data-id='3'] {
+  background-color: rgb(211, 82, 82);
+} */
+
+.correct-num {
+  background-color: rgb(211, 82, 82);
+}
+
+button {
+  outline: none;
+  padding: 5px 15px;
+  margin-top: 20px;
+  border: 2px solid white;
+}
+
+button:hover {
+  color: #333;
+  border: 2px solid #333;
+  background-color: white;
+}
+
+.easy {
+  background-color: #444;
+}
+
+.game {
+  font-size: 2em;
+}

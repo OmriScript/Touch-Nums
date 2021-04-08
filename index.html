@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Touch Nums</title>
+</head>
+<body onload="init()">
+    <div class="game-settings">
+        <div class="diff-container">
+            <h1>Choose your level</h1>
+            <input type="radio" class="difficulty" name="difficulty" value ="easy" checked="true" onclick="newGame()">
+            <label for="easy">Easy</label>
+            <input type="radio" class="difficulty" name="difficulty" value ="hard" onclick="newGame()">
+            <label for="hard">Hard</label>
+            <input type="radio" class="difficulty" name="difficulty" value ="extreme" onclick="newGame()">
+            <label for="extreme">Extreme!</label>
+        </div>
+
+        <div class="time number">
+            <p>Game Time: <span class="game-time"></span></p>
+            <p class="next-number">Next Number: 1</p>
+        </div>
+    </div>
+    <div class="game">
+        <table>
+            <tbody>
+                
+            </tbody>
+
+        </table>
+        <button onclick="newGame()">New Game</button>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
